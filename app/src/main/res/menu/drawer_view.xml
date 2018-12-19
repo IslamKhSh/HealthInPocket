@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/check_up_fragment"
+            android:checked="true"
+            android:title="Check Up" />
+        <item
+            android:id="@+id/history_fragment"
+            android:title="History" />
+
+    </group>
+
+
+    <group android:checkableBehavior="single">
+        <item
+            android:icon="@drawable/ic_help_black_24dp"
+            android:title="Help" />
+        <item
+            android:icon="@drawable/ic_info_black_24dp"
+            android:title="About" />
+
+    </group>
+
+
+    <item android:title="Your Acoccount">
+
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/account_settings"
+                    android:icon="@drawable/ic_settings_black_24dp"
+                    android:title="Settings" />
+                <item
+                    android:id="@+id/log_out"
+                    android:icon="@drawable/ic_power_settings_new_black_24dp"
+                    android:title="Log Out" />
+
+            </group>
+        </menu>
+    </item>
+</menu>
