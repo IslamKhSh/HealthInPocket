@@ -1,0 +1,14 @@
+<ListView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/history_list"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e3e3e4"
+    android:drawSelectorOnTop="true"
+    android:orientation="vertical"
+    android:paddingLeft="6dp"
+    android:paddingRight="6dp"
+    android:paddingTop="6dp"
+    tools:context="com.example.eslam.healthinpocket.HistoryFragment">
+
+</ListView>
