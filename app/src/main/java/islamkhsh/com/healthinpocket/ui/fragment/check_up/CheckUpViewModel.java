@@ -29,7 +29,7 @@ public class CheckUpViewModel extends BaseViewModel {
     public void connectToDevice(Context context, BluetoothDevice bluetoothDevice, int measuredItemType) {
         cancelConnectTask();
         connectTask = new ConnectTask(context, measuredItemType);
-        connectTask.doInBackground(bluetoothDevice);
+        connectTask.execute(bluetoothDevice);
         result.addSource(connectTask.getSource(), new Observer<String>() {
             @Override
             public void onChanged(@Nullable String s) {

@@ -70,7 +70,7 @@ public class ConnectTask extends AsyncTask<BluetoothDevice, Void, String> {
     protected void onPostExecute(String s) {
         super.onPostExecute(s);
         progressDialog.dismiss();
-        exchangeDataTask.doInBackground(bluetoothSocket);
+        exchangeDataTask.execute(bluetoothSocket);
     }
 
     @Override
