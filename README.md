@@ -6,7 +6,7 @@ A medical App that can get medical measurments from the patient using some senso
 
 ![Health In Pocket](https://github.com/IslamKhSh/HealthInPocket/blob/master/screenshots/IMG_2538.JPG)
 #
-In this App I implement many Android topics as:
+In this App I implemented many Android topics as:
   - Firebase: Auth & Database.
   - Android Architecture components.
   - MVVM pattern design.
