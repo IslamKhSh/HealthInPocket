@@ -2,7 +2,7 @@
 
 ![Health In Pocket](https://github.com/IslamKhSh/HealthInPocket/blob/master/app/src/main/res/drawable-xhdpi/logo_small.9.png)
 
-A medical App that can get medical measurments from the patient using some sensors connected via Bluetooth and also can store with the patient account to build patinet medical history.
+A medical App that can get medical measurements from the patient using some sensors connected via Bluetooth and also can store with the patient account to build patinet medical history.
 
 ![Health In Pocket](https://github.com/IslamKhSh/HealthInPocket/blob/master/screenshots/IMG_2538.JPG)
 #
@@ -22,7 +22,7 @@ In this App I implemented many Android topics as:
 <img src="https://github.com/IslamKhSh/HealthInPocket/blob/master/screenshots/Drawer%20Navigation.png" width="360">   <img src="https://github.com/IslamKhSh/HealthInPocket/blob/master/screenshots/Share%20item.png" width="360">
  
  #
- To use this project (you must have the hardawre components) then follow this steps:
+ To use this project (you must have the hardware components) then follow this steps:
   
   1- Change the MAC address constant in the [Constants class](https://github.com/IslamKhSh/HealthInPocket/blob/master/app/src/main/java/islamkhsh/com/healthinpocket/common/Constants.java) with the MAC address of your bluetooth module:
   
