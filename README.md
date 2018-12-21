@@ -2,7 +2,7 @@
 
 ![Health In Pocket](https://github.com/IslamKhSh/HealthInPocket/blob/master/app/src/main/res/drawable-xhdpi/logo_small.9.png)
 
-A medical App that can get medical measurements from the patient using some sensors connected via Bluetooth and also can store with the patient account to build patinet medical history.
+A medical App that can get medical measurements from the patient using some sensors connected via Bluetooth and also can store with the patient account to build patient medical history.
 
 ![Health In Pocket](https://github.com/IslamKhSh/HealthInPocket/blob/master/screenshots/IMG_2538.JPG)
 #
@@ -31,6 +31,6 @@ In this App I implemented many Android topics as:
      
   2- Pair your bluetooth module with your Mobile.
   
-  3- Create your firebase peoject and configure it with your android project.
+  3- Create your firebase project and configure it with your android project.
   
   4- Let's go.
